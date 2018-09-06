@@ -1,0 +1,13 @@
+differentiation's between Vector and ArrayList.
+
+Vector is synchronized by default, and ArrayList is not. Note : you can make ArrayList also 
+synchronized by passing arraylist object to Collections.synchronizedList() method. 
+Synchronized means : it can be used with multiple threads with out any side effect.
+
+ArrayLists grow by 50% of the previous size when space is not sufficient for new element, 
+where as Vector will grow by 100% of the previous size when there is no space for new incoming 
+element.
+
+
+->LinkedList is faster in add and remove, but slower in get
+
