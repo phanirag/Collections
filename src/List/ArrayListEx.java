@@ -28,7 +28,8 @@ public class ArrayListEx {
 		a.add(null);
 		System.out.println(a);//[hari, hari, null, null]
 		List<String> a1= Collections.synchronizedList(a); // Now ArrayList is synchronized
-
-
+		
 	}
+	
 }
+	
