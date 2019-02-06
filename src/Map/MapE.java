@@ -1,8 +1,10 @@
 package Map;
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.IdentityHashMap;
+import java.util.Optional;
 import java.util.TreeMap;
 import java.util.WeakHashMap;
 
@@ -16,10 +18,10 @@ public class MapE {
 		//methodsInMap();
 		//IdentityHashMapE();
 		//WeakHashMapE();
-		//TreeMapwithdefaultSortingOrder();
-		//TreeMapwithCustomizedSortingOrder();
+		TreeMapwithdefaultSortingOrder();
+		TreeMapwithCustomizedSortingOrder();
 		//hashTableE();
-		navigableMapE();
+		//navigableMapE();
 		
 	}
 
@@ -62,6 +64,7 @@ public class MapE {
 
 
 	private static void TreeMapwithCustomizedSortingOrder() {
+
 		TreeMap t=new TreeMap(new MyComparator());
 		t.put("XXX",10);
 		t.put("AAA",20);

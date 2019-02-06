@@ -16,6 +16,7 @@ public class Test1{
 	   Collections.sort(a);
 	   System.out.println("sorted list is "+a);
 		int max=a.size();
+		
 		System.out.println(max);
 		System.out.println("min value is"+a.get(0)+"max value is "+a.get(max-1));
 		Collections.reverse(a);
